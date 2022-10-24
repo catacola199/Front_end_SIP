@@ -190,6 +190,15 @@ h1, h2, h3, h4, h5, h6 {
   background-color: transparent;
   border-top: none;
 }
+@media (min-width: 576px) {
+  .card-columns {
+    column-count: 5;
+  }
+  #product #about #visi-misi #service #client #team #gallery #contact .container{
+    padding: 1rem;
+  }
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -596,7 +605,7 @@ section {
   }
 }
 
-.card-client-border{
+.r-client-border{
   border-left-width: thick;
   border-left-color: #00b2df;
   border-bottom: none;
