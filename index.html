@@ -26,7 +26,8 @@
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
-
+ 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet" />
 </head>
@@ -370,7 +371,7 @@
                 <li class="list-group-item">MOBILE DIGITAL X-RAY SYSTEM</li>
                 <li class="list-group-item">AKL : 21501027458</li>       
               </ul>
-              <a href="#" class="btn btn-outline-primary d-flex justify-content-center">Go somewhere</a>
+              <a href="assets/img/produk/PRS_500_E.jpg" class="btn btn-outline-primary d-flex justify-content-center glightbox4" data-glightbox="title: My title; description: this is the slide description">Go somewhere</a>
             </div>
           </div>
           <!-- PRODUK 2-->
@@ -895,10 +896,15 @@
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
   <!-- Template Main JS File -->
   <script src="<?= base_url('assets/front/js/main.js'); ?>"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
 
+  <script type="text/javascript">
+    const lightbox = GLightbox({ ...options });
+  </script>
+  
 </body>
 
 </html>
